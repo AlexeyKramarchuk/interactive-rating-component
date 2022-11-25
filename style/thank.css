@@ -79,10 +79,4 @@ body {
   font-size: 14px;
 }
 
-@media (min-width: 1200px) {
-  body {
-    background-color: hsl(216deg, 12%, 8%);
-  }
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=thank.css.map */
