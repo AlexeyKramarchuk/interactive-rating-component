@@ -6,6 +6,7 @@ $light-grey: hsl(217, 12%, 63%);
 $medium-grey: hsl(216, 12%, 54%);
 $dark-blue: hsl(213, 19%, 18%);
 $dark-blue2: hsl(213, 19%, 23%);
+$dark-blue-active: hsl(213, 19%, 60%);
 $very-dark-blue: hsl(216, 12%, 8%);
 
 
@@ -30,7 +31,7 @@ body {
     background-color: $very-dark-blue;
     .card {
         margin: auto;
-        width:85%;
+        width:80%;
         padding: 30px;
         background-color: $dark-blue;
         border-radius: 20px;
@@ -62,6 +63,10 @@ body {
             margin-top: 30px;
             display: flex;
             justify-content: space-around;
+            div:hover {
+                background-color: $orange;
+                color: $white;
+            }
             .num {
                 display: flex;
                 justify-content: center;
@@ -80,6 +85,10 @@ body {
             display: flex;
             flex-direction: column;
             align-items: center;
+            button:hover {
+                background-color: $white;
+                color: $orange;
+            }
             .btn {
                 cursor: pointer;
                 margin-top: 20px;
@@ -89,9 +98,10 @@ body {
                 background-color: $orange;
                 color: $white;
                 font-size: 14px;
+                
             }
         }
-      }
+    }
 }
 
 @media (min-width: 1200px) {

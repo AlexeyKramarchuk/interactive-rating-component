@@ -19,23 +19,22 @@ body {
   background-color: hsl(216deg, 12%, 8%);
 }
 .container .card {
+  text-align: center;
   margin: auto;
-  width: 85%;
+  width: 80%;
   padding: 30px;
   background-color: hsl(213deg, 19%, 18%);
   border-radius: 20px;
 }
-.container .card .star {
-  display: flex;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: hsl(213deg, 19%, 23%);
-}
-.container .card .star img {
-  width: 40%;
-  height: 40%;
+.container .card .selected {
+  width: 60%;
   margin: auto;
+  margin-top: 20px;
+  padding: 7px;
+  border-radius: 20px;
+  background-color: hsl(213deg, 19%, 23%);
+  color: hsl(25deg, 97%, 53%);
+  font-size: 14px;
 }
 .container .card h2 {
   margin-top: 20px;
@@ -46,37 +45,11 @@ body {
   line-height: 1.5;
   opacity: 0.7;
 }
-.container .card .choice {
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-around;
-}
-.container .card .choice .num {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: hsl(213deg, 19%, 23%);
-  cursor: pointer;
-  opacity: 0.6;
-  font-size: 13px;
-}
-.container .card .button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.container .card .button .btn {
-  cursor: pointer;
-  margin-top: 20px;
-  padding: 13px;
-  border-radius: 20px;
-  width: 90%;
-  background-color: hsl(25deg, 97%, 53%);
-  color: hsl(0deg, 0%, 100%);
-  font-size: 14px;
+
+@media (min-width: 1200px) {
+  body {
+    background-color: hsl(216deg, 12%, 8%);
+  }
 }
 
 /*# sourceMappingURL=thank.css.map */
